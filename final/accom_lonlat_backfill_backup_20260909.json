@@ -1,0 +1,19 @@
+{
+  "backup_note": "accom.accom_lon 재지오코딩 백필 실행 전 백업. DECIMAL(10,8)->DECIMAL(9,6) 마이그레이션(migration_accom_lon_precision.sql) 적용 후 상태 — 원래 값은 99.99999999였으나 ALTER의 반올림으로 100.000000이 됨(의미는 동일: 둘 다 DECIMAL(10,8) 오버플로우로 유실된 값). accom_lat은 이 버그의 영향을 받지 않아 처음부터 정상값.",
+  "backed_up_at": "2026-09-09",
+  "rows": [
+    {"accom_no": 1, "trip_no": 22, "accom_nm": "L7 홍대 바이 롯데호텔", "add": "서울 마포구 양화로 141", "accom_lat": "37.555698", "accom_lon_before": "100.000000", "created_by": "loopy1@naver.com"},
+    {"accom_no": 2, "trip_no": 24, "accom_nm": "L7 홍대 바이 롯데호텔", "add": "서울 마포구 양화로 141", "accom_lat": "37.555698", "accom_lon_before": "100.000000", "created_by": "loopy1@naver.com"},
+    {"accom_no": 3, "trip_no": 31, "accom_nm": "호텔PJ 명동", "add": "서울 중구 마른내로 71", "accom_lat": "37.564808", "accom_lon_before": "100.000000", "created_by": "loopy1@naver.com"},
+    {"accom_no": 4, "trip_no": 32, "accom_nm": "호텔PJ 명동", "add": "서울 중구 마른내로 71", "accom_lat": "37.564808", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 5, "trip_no": 32, "accom_nm": "호요 홍대점", "add": "서울 마포구 와우산로21길 20-11", "accom_lat": "37.552805", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 6, "trip_no": 33, "accom_nm": "호텔PJ 명동", "add": "서울 중구 마른내로 71", "accom_lat": "37.564808", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 7, "trip_no": 33, "accom_nm": "호요 홍대점", "add": "서울 마포구 와우산로21길 20-11", "accom_lat": "37.552805", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 8, "trip_no": 34, "accom_nm": "호텔PJ 명동", "add": "서울 중구 마른내로 71", "accom_lat": "37.564808", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 9, "trip_no": 34, "accom_nm": "호요 홍대점", "add": "서울 마포구 와우산로21길 20-11", "accom_lat": "37.552805", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 10, "trip_no": 35, "accom_nm": "호텔PJ 명동", "add": "서울 중구 마른내로 71", "accom_lat": "37.564808", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 11, "trip_no": 35, "accom_nm": "호요 홍대점", "add": "서울 마포구 와우산로21길 20-11", "accom_lat": "37.552805", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 12, "trip_no": 36, "accom_nm": "호텔PJ 명동", "add": "서울 중구 마른내로 71", "accom_lat": "37.564808", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"},
+    {"accom_no": 13, "trip_no": 36, "accom_nm": "호요 홍대점", "add": "서울 마포구 와우산로21길 20-11", "accom_lat": "37.552805", "accom_lon_before": "100.000000", "created_by": "prettybm@naver.com"}
+  ]
+}

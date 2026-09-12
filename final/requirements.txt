@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+bcrypt
+python-jose[cryptography]
+python-dotenv
+apscheduler
+tzdata
+python-multipart
+chromadb
+sentence-transformers
+openai
+requests

@@ -1,0 +1,7 @@
+-- [OBSOLETE — 실행하지 마세요]
+--
+-- ERD 확인 결과 ctg_no NOT NULL은 선반영 실수가 아니라 원래 계획대로였던 것으로 확인됨.
+-- trip_interest는 interest_no 없이 ctg_no만 갖도록 바뀌고, interest 테이블은 통째로
+-- 삭제하기로 되어 있었음 (ERD엔 이미 반영되어 있었고 DB/코드만 못 따라간 상태였음).
+--
+-- 이 파일 대신 migration_trip_interest_use_ctg.sql 을 사용할 것.

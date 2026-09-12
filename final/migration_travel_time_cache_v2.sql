@@ -1,0 +1,9 @@
+-- (사용 안 함 — migration_travel_time_cache.sql에 통합됨)
+--
+-- 이 파일은 원래 travel_time_cache에 origin_type을 추가하는 ALTER TABLE로 작성됐으나,
+-- 실행해보니 travel_time_cache 자체가 그때까지 실 DB에 한 번도 생성된 적이 없었다
+-- (migration_travel_time_cache.sql이 "실행 전 확인 요청" 상태로 남아있었던 것 —
+-- `Table 'team2.travel_time_cache' doesn't exist` 에러로 확인). 존재하지 않는 테이블을
+-- ALTER할 수는 없으므로, 이 파일의 변경 내용은 전부 migration_travel_time_cache.sql의
+-- CREATE TABLE 원안에 처음부터 반영해 하나로 합쳤다. 이 파일은 참고용으로만 남겨두고
+-- 실행 대상이 아니다.
